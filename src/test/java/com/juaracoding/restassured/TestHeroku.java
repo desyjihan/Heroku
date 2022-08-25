@@ -36,6 +36,7 @@ public class TestHeroku {
 		requestnew.put("name", "Post");
 		requestnew.put("category", "Test");
 		requestnew.put("price", 7000);
+		System.out.println(requestnew.toJSONString());
 		
 		given()
 		.header("Content-Type", "application/json")
