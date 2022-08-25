@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-24T23:49:12 WIB" name="Default suite" finished-at="2022-08-24T23:49:16 WIB" duration-ms="3512">
+  <suite started-at="2022-08-25T23:42:50 WIB" name="Default suite" finished-at="2022-08-25T23:43:06 WIB" duration-ms="16365">
     <groups>
     </groups>
-    <test started-at="2022-08-24T23:49:12 WIB" name="Default test" finished-at="2022-08-24T23:49:16 WIB" duration-ms="3512">
+    <test started-at="2022-08-25T23:42:50 WIB" name="Default test" finished-at="2022-08-25T23:43:06 WIB" duration-ms="16365">
       <class name="com.juaracoding.restassured.TestHeroku">
-        <test-method signature="testDelete()[pri:0, instance:com.juaracoding.restassured.TestHeroku@26275bef]" started-at="2022-08-24T23:49:13 WIB" name="testDelete" finished-at="2022-08-24T23:49:16 WIB" duration-ms="3462" status="PASS">
+        <test-method signature="testPost()[pri:1, instance:com.juaracoding.restassured.TestHeroku@51f116b8]" started-at="2022-08-25T23:42:50 WIB" name="testPost" finished-at="2022-08-25T23:42:56 WIB" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+        <test-method signature="testGet()[pri:2, instance:com.juaracoding.restassured.TestHeroku@51f116b8]" started-at="2022-08-25T23:42:56 WIB" name="testGet" finished-at="2022-08-25T23:42:59 WIB" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method signature="testPut()[pri:3, instance:com.juaracoding.restassured.TestHeroku@51f116b8]" started-at="2022-08-25T23:42:59 WIB" name="testPut" finished-at="2022-08-25T23:43:01 WIB" duration-ms="2220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPut -->
+        <test-method signature="testPatch()[pri:4, instance:com.juaracoding.restassured.TestHeroku@51f116b8]" started-at="2022-08-25T23:43:01 WIB" name="testPatch" finished-at="2022-08-25T23:43:04 WIB" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatch -->
+        <test-method signature="testDelete()[pri:5, instance:com.juaracoding.restassured.TestHeroku@51f116b8]" started-at="2022-08-25T23:43:04 WIB" name="testDelete" finished-at="2022-08-25T23:43:06 WIB" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->

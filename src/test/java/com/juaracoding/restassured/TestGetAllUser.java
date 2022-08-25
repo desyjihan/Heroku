@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 
 public class TestGetAllUser {
 
-	String endpoint = "https://reqres.in/api/users?page=2";
+	String endpoint = "https://reqres.in/api/users?page=1";
 	
 	@Test
 	public void testStatusCode() {

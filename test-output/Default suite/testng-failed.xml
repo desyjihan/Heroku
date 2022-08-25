@@ -5,7 +5,7 @@
     <classes>
       <class name="com.juaracoding.restassured.TestHeroku">
         <methods>
-          <include name="testDelete"/>
+          <include name="testPut"/>
         </methods>
       </class> <!-- com.juaracoding.restassured.TestHeroku -->
     </classes>

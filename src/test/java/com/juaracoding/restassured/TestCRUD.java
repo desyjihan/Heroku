@@ -75,4 +75,14 @@ public class TestCRUD {
 		.statusCode(204)
 		.log().all();
 	}
+	
+//	@Test
+//	public void apiKeyAuth() {
+//	    given()
+//	    .queryParam("api_key", "aaa")
+//	    .when()
+//	    .get("https://api.themoviedb.org/3/movie/popular?language=en-US&page=1")
+//	    .then().statusCode(200);
+//	}
+
 }
